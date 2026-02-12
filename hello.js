@@ -4,7 +4,9 @@
 // process.argv[2] --> primo argomento
 // process.argv[...] --> così via
 
-const nome = process.argv[2];
+const argomenti = process.argv.splice(2);
+
+const nome = argomenti[0];
 
 if (nome) {
 	console.log(`Hello ${nome}!`);
