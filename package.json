@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node hello.js",
-    "dev": "node --watch hello.js"
+    "dev": "node --watch hello.js",
+    "calc": "node calc.js"
   },
   "author": "Luca Lambiase",
   "license": "ISC",
