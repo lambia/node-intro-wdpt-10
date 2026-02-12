@@ -30,6 +30,7 @@ if (operazione == "somma" || operazione == "+") {
 	risultato = a * b;
 
 } else if (operazione == "dividi" || operazione == "/") {
+	//bisognerebbe gestire la divisione per zero!!
 	risultato = a / b;
 
 } else {
